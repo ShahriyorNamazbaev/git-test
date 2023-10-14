@@ -1,6 +1,6 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -12,7 +12,7 @@ ul {
     list-style: none;
 }
 
-.conteiner {
+.container {
     max-width: 1200px;
     width: 100%;
     padding: 0 15px;
@@ -21,15 +21,13 @@ ul {
 
 .header {
     height: 100vh;
-    background: indigo;
+    background: rgba(25, 0, 255, 0.522);
 }
 
 .nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
-
 }
 
 .nav-logo {
@@ -43,33 +41,28 @@ ul {
     column-gap: 30px;
 }
 
-.nav.link {
+.nav-link {
     color: #fff;
     font-size: 30px;
 }
 
-.header-content {
+.header-container {
     height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 20px;
-
 }
 
 .header-title {
     font-size: 50px;
     font-weight: 700;
-    color: yellow;
+    color: greenyellow;
     text-transform: uppercase;
-
 }
 
-
-
-
 .header-text {
-    color: yellow;
+    color: greenyellow;
     font-size: 35px;
 }
